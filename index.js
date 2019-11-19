@@ -10,7 +10,7 @@ app.get('/getpodinfo', function (req, res) {
         "MY_POD_SERVICE_ACCOUNT": process.env.MY_POD_SERVICE_ACCOUNT || '',
         "HEADERS": req.headers
     };
-
+ 
     res.json(podInfo) 
 })
 
