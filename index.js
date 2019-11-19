@@ -11,7 +11,7 @@ app.get('/getpodinfo', function (req, res) {
         "HEADERS": req.headers
     };
 
-    res.json(podInfo)
+    res.json(podInfo) 
 })
 
 var server = app.listen(process.env.MY_PORT || 4444, function () {
